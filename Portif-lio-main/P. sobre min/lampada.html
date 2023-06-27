@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lampada JS Vanilha</title>
+</head>
+<body>
+
+    
+    <style> 
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+    button{
+        width: 80px;
+    }
+        #topMenu {
+            display:flex;
+            background-color: blue;
+            margin:0;
+        }
+        #topMenu li {
+            color:white;
+            text-decoration: none;
+            display: block;
+            padding:15px;
+        }
+        #topMenu li:first-child {
+            margin-right: auto;
+        }</style>
+    <ul id="topMenu">
+        <li>Logo</li>
+        <li><a href="index.html" style="color:white;text-decoration: none;">Home</li>
+        <li><a href=lampada.html style="color: white; text-decoration: none;">Projetos</a></li>
+        <li>Contato</li>
+        
+            
+    
+
+<main>
+
+    <img src="img/desligada.jpeg" alt="desligada" id="lamp">
+
+    <p>
+
+    <button id="ligada">Ligar</button>
+    <button id="desligada">Desligar</button>
+
+    </p>
+    
+    <script src="lampada.js"></script> 
+      
+</main>
+</body>
+</html>
